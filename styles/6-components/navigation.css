@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--heading);
+    font-size: var(--font-base);
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: var(--spacing-2);
+}
+
+.navigation a {
+    color: var(--secondary-foreground);
+    display: inline-block;
+    padding: var(--spacing-2);
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: var(--primary-hover);
+}
+
+a.active {
+    color: var(--primary-active);
+}
+
+@media (max-width: 40rem) {
+    .header .navigation {
+      display: none;
+    }
+}

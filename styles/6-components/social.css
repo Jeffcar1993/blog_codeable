@@ -1,0 +1,16 @@
+
+
+.social__links{
+    list-style: none;
+    padding: 0;
+    width: fit-content;
+}
+
+.social__links li {
+    display: inline-block;
+    margin-right: var(--spacing-10);
+}
+
+.social__links li:last-child {
+    margin-right: 0px;
+}

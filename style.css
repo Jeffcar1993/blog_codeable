@@ -1,0 +1,49 @@
+/* 1. Settings */ 
+@import url(/styles/1-settings/colors.css);
+@import url(/styles/1-settings/typography.css);
+@import url(/styles/1-settings/spacing.css);
+@import url(/styles/1-settings/width.css);
+@import url(/styles/1-settings/border.css);
+/* 3. generic */
+@import url(/styles/3-generic/reset.css);
+/* 4. elementss */
+@import url(/styles/4-elements/elements.css);
+/* 5. object */
+@import url(/styles/5-object/objects.css);
+/* 6. components */
+@import url(/styles/6-components/header.css);
+@import url(/styles/6-components/navigation.css);
+@import url(/styles/6-components/content.css);
+@import url(/styles/6-components/buttons.css);
+@import url(/styles/6-components/articles.css);
+@import url(/styles/6-components/hero.css);
+@import url(/styles/6-components/author.css);
+@import url(/styles/6-components/social.css);
+@import url(/styles/6-components/footer.css);
+@import url(/styles/6-components/pricing.css);
+@import url(/styles/6-components/features2.css);
+@import url(/styles/6-components/logoCloud.css);
+@import url(/styles/6-components/testimonials.css);
+@import url(/styles/6-components/unete-form.css);
+@import url(/styles/6-components/form-field.css);
+@import url(/styles/6-components/field-item.css);
+@import url(/styles/6-components/field-group.css);
+/* 7. utilities */
+@import url(/styles/7.-utilities/utilities.css);
+
+* {
+    padding: 0;
+    font: inherit;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+
+
+

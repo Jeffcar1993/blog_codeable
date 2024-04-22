@@ -1,0 +1,20 @@
+/* styles/7-utilities/utilities.css */
+ 
+/* Aquí se escribirán las clases de utilidad */
+
+.full-width {
+    width: 100% !important;
+}
+
+.max-w-2xl {
+    max-width: var(--width-2xl) !important;
+}
+
+.margin-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.span-2 {
+    grid-column: span 2;
+}

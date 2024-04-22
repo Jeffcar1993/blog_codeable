@@ -1,0 +1,80 @@
+/* styles/6-components/header.css */
+.titulo {
+  display: flex;
+    
+}
+
+.navegador {
+  display: flex;
+  
+}
+
+.encerrado {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+
+    padding-block: var(--spacing-6);
+    padding: var(--spacing-6) var(--spacing-8);
+    max-width: var(--width-7xl);
+    margin-left: auto;
+    margin-right: auto;
+  }
+   
+  /* .header > * {
+    display: inline-block;
+  } */
+   
+  .header__logo {
+    margin: 0;
+    margin-right: 64px; /* o var(--spacing-16) */
+    display: inline-block;
+    font-family: var(--display);
+    font-size: var(--font-3xl);
+    line-height: var(--leading-none);
+    font-weight: 500;
+    color: var(--primary);
+  }
+   
+  .header__logo a {
+    text-decoration: none;
+    color: inherit;
+  }
+   
+  .header__logo a:hover {
+    color: var(--primary-hover);
+  }
+
+@media (max-width: 40rem) {
+  .header .button {
+    display: none;
+  }
+}
+
+@media (min-width: 40rem) {
+  .header .button--icon {
+    display: none;
+  }
+}
+
+  @media (max-width: 40rem) {
+    .header .button--icon {
+      display: inline-block;
+    }
+  }
+
+ 
+
+
+
+
+
+
+  
+

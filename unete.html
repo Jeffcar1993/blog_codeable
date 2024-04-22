@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeable</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="encerrado">
+      <div class="titulo">
+      <h1 class="header__logo"><a class="active" href="./codeable.html"> Codeable </a></h1>
+     </div>
+     <div class="navegador">
+      <nav class="navigation">
+        <ul>
+          <li><a href="/blog/Blog.html">Blog</a></li>
+          <li><a href="/SobreNosotros.html">Sobre Nosotros</a></li>
+        </ul>
+      </div>
+      </nav>
+    </div>
+      <button class="button">Login</button>
+      <button class="button--icon button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Menu"><path fill="#fcfcfc" d="M3 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 6a1 1 0 0 1 1-1h16a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm1 5a1 1 0 1 0 0 2h16a1 1 0 1 0 0-2H4z" class="color000000 svgShape"></path></svg></button>
+    </header>
+
+    <main>
+      
+      <section class="hero section">
+        <div class="container">
+          <div class="hero__content">
+
+            <div class="hero__left--panel">
+            
+            <h2 class="hero__tittle">Únete a la comunidad</h2>
+            <p class="hero__lead">
+              Completa el formulario para iniciar el proceso de aplicación
+            </p>
+          </div>
+          <div class="hero__rigth--panel"></div>
+        </div>
+        </div>    
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <form action="" class="unete-form">
+
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Micaela" required>
+            </div>  
+
+            <div class="form-field">
+              <label for="apellido">Apellido</label>
+              <input type="text" name="apellido" id="apellido" placeholder="Bolognesi" required>
+            </div> 
+
+            <div class="form-field">
+              <label for="email">email</label>
+              <input type="email" name="email" id="email" placeholder="micaela@email.com" required>
+            </div> 
+
+            <div class="form-field">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" name="telefono" id="telefono" placeholder="987654321" >
+            </div>
+
+            <div class="form-field">
+              <label for="fecha-nac">Fecha de Nacimiento</label>
+              <input type="date" name="fecha-nac" id="fecha-nac">
+            </div>
+
+            <div class="form-field">
+              <label for="cv">Curriculum Vitae</label>
+              <input type="file" name="cv" id="cv" accept=".pdf" >
+              <span class="form-field__help">solo pdf</span>
+            </div>
+
+            <div class="form-field">
+              <label for="pais">País de Residencia</label>
+              <select name="pais" id="pais">
+                <option value="">Selecciona uno</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="CH">Chile</option>
+                <option value="CO">Colombia</option>
+                <option value="EC">Ecuador</option>
+                <option value="PE">Perú</option>
+              </select>
+              <span class="form-field__help">selecciona uno</span>
+            </div> 
+
+            <div class="form-field">
+              <label for="ciudad">Ciudad de Residencia</label>
+              <input type="text" name="ciudad" id="ciudad">
+            </div>
+
+            <div class="form-field span-2" >
+              <label for="direccion">Dirección de Residencia</label>
+              <input type="text" name="direccion" id="direccion">
+            </div>
+
+            <div class="form-field span-2">
+              <label>Conocimiento Profesional</label>
+              <div class="field-group">  
+                <div class="field-item">
+                  <input type="radio" name="experiencia" value="sin-experiencia" id="sin-experiencia" required><label for="sin-experiencia">Sin experiencia</label>
+                </div>
+    
+                <div class="field-item">
+                  <input type="radio" name="experiencia" value="menos-de-1" id="menos-de-1"><label for="menos-de-1">Menos de 1 año</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="radio" name="experiencia" value="entre-1-2" id="entre-1-2"><label for="entre-1-2">Entre 1 y 2 años</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="radio" name="experiencia" value="entre-2-5" id="entre-2-5"><label for="entre-2-5">Entre 2 y 5 años</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="radio" name="experiencia" value="mas-de-5" id="mas-de-5"><label for="mas-de-5">Más de 5 años</label>
+                </div>
+
+              </div> 
+              
+            </div>
+            
+            <div class="form-field span-2">
+              <label>Experiencia Profesional</label>
+              <div class="field-group">  
+                <div class="field-item">
+                  <input type="checkbox" name="html-css" id="html-css"><label for="html-css">Html y Css</label>
+                </div>
+    
+                <div class="field-item">
+                  <input type="checkbox" name="javascript" id="javascript"><label for="javascript">JavaScript</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="checkbox" name="typescript" id="tnode"><label for="tnode">TypeScript</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="checkbox" name="node" id="node"><label for="node">Node.js</label>
+                </div>
+
+                <div class="field-item">
+                  <input type="checkbox" name="react"  id="react"><label for="react">React</label>
+                </div>
+                
+              </div> 
+              <span class="form-field__help">marque todas las que aplique</span>
+              
+            </div>
+              <button type="submit" class="button full-width span-2">Iniciar Aplicación</button>
+          </form>
+        </div>
+      </section>
+        
+    </main>
+
+    <footer class="container footer">
+      <div class="footer__links">
+          <a href="#">Link1</a>
+          <a href="#">Link2</a>
+          <a href="#">Link3</a>
+          <a href="#">Link4</a>
+          <a href="#">Link5</a>
+      </div>
+      <ul class="social__links">
+        <li>
+          <a href="#"></a>
+          <img src="/assets/img/facebook.svg" alt="facebook" />
+        </li>
+        <li>
+          <a href="#"></a>
+          <img src="/assets/img/linkedin.svg" alt="linkedin" />
+        </li>
+        <li>
+          <a href="#"></a>
+          <img src="/assets/img/twitter.svg" alt="twitter" />
+        </li>
+        <li>
+          <a href="https://github.com/Jeffcar1993"><img src="/assets/img/github.svg" alt="github"/></a>
+          
+        </li>
+      </ul>
+      <small
+        >&copy; 2024 Jeff Diseño Gráfico Digital - Todos los derechos
+        reservados</small
+      >
+    </footer>
+  </body>
+
+</html>
+

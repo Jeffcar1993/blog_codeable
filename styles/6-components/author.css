@@ -1,0 +1,31 @@
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author > * {
+    display: inline-block;
+}
+
+.author__avatar {
+    width: var(--spacing-12);
+    height: var(--spacing-12);
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author__info {
+    margin-left: var(--spacing-4);
+}
+
+.author__info > * {
+    display: block;
+    font-family: var(--monospace);
+}
+
+.category-tag {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--secondary);
+    border-radius: 9999px;
+}

@@ -1,0 +1,250 @@
+/* botones de el blog aca empieza con el boton primario y sus variaciones de tamaño en las diferentes pseudoclases */
+.button {
+    font-family: var(--text);
+    font-size:var(--font-sm);
+    font-weight: 500;
+    line-height: var(--leading-5);
+    color: var(--white);
+
+    width: 77px;
+    height: var(--spacing-10);
+    padding: var(--spacing-2) var(--spacing-4);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    border-radius: var(--rounded-md);
+    gap: var(--spacing-2);
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--primary-hover);
+}
+
+.button:active {
+    background-color: var(--primary-active);
+}
+
+.button:disabled {
+    background-color: var(--primary);
+    opacity: 50%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.button--sm {
+    padding: var(--spacing-2) var(--spacing-3);
+    height: var(--spacing-9);
+    width: 69px;
+}
+
+.button--sm:hover {
+    background-color: var(--primary-hover);
+}
+
+.button--sm:active {
+    background-color: var(--primary-active);
+}
+
+.button--sm:disabled {
+    background-color: var(--primary);
+    opacity: 50%;
+}
+
+.button--lg {
+    padding: var(--spacing-2) var(--spacing-8);
+    height: var(--spacing-11);
+    width: 109px;
+}
+
+.button--lg:hover {
+    background-color: var(--primary-hover);
+}
+
+.button--lg:active {
+    background-color: var(--primary-active);
+}
+
+.button--lg:disabled {
+    background-color: var(--primary);
+    opacity: 50%;
+}
+
+.button--icon {
+    height: var(--spacing-10);
+    width: var(--spacing-10);
+    padding: 10px;
+}
+
+.button--icon:hover {
+    background-color: var(--primary-hover);
+}
+
+.button--icon:active {
+    background-color: var(--primary-active);
+}
+
+.button--icon:disabled {
+    background-color: var(--primary);
+    opacity: 50%;
+}
+
+/* aca empieza el boton secundario y sus variaciones de tamaño en las diferentes pseudoclases */
+
+.button--secondary {
+    background-color: var(--secondary);
+    color: var(--secondary-foreground);
+}
+
+.button--secondary:hover {
+    background-color: var(--secondary-hover);
+}
+
+.button--secondary:active {
+    background-color: var(--secondary-active);
+}
+
+.button--secondary:disabled {
+    background-color: var(--secondary);
+    opacity: 50%;
+}
+
+.button--secondary--sm {
+    padding: var(--spacing-2) var(--spacing-3);
+    height: var(--spacing-9);
+    width: 69px;
+}
+
+.button--secondary--sm:hover {
+    background-color: var(--secondary-hover);
+}
+
+.button--secondary--sm:active {
+    background-color: var(--secondary-active);
+}
+
+.button--secondary--sm:disabled {
+    background-color: var(--secondary);
+    opacity: 50%;
+}
+
+.button--secondary--lg {
+    padding: var(--spacing-2) var(--spacing-8);
+    height: var(--spacing-11);
+    width: 109px;
+}
+
+.button--secondary--lg:hover {
+    background-color: var(--secondary-hover);
+}
+
+.button--secondary--lg:active {
+    background-color: var(--secondary-active);
+}
+
+.button--secondary--lg:disabled {
+    background-color: var(--secondary);
+    opacity: 50%;
+}
+
+.button--secondary--icon {
+    height: var(--spacing-10);
+    width: var(--spacing-10);
+}
+
+.button--secondary-icon:hover {
+    background-color: var(--secondary-hover);
+}
+
+.button--secondary--icon:active {
+    background-color: var(--secondary-active);
+}
+
+.button--secondary--icon:disabled {
+    background-color: var(--secondary);
+    opacity: 50%;
+}
+
+/* Botones outline */
+
+.button--outline {
+    background-color: var(--white);
+    color: var(--secondary-foreground);
+    border-color: var(--border);
+}
+
+.button--outline:hover {
+    background-color: var(--background-hover);
+}
+
+.button--outline:active {
+    background-color: var(--background-active);
+}
+
+.button--outline:disabled {
+    background-color: var(--background);
+    opacity: 50%;
+}
+
+.button--outline--sm {
+    padding: var(--spacing-2) var(--spacing-3);
+    height: var(--spacing-9);
+    width: 69px;
+    border-color: var(--border);
+}
+
+.button--outline--sm:hover {
+    background-color: var(--background-hover);
+}
+
+.button--outline--sm:active {
+    background-color: var(--background-active);
+}
+
+.button--outline--sm:disabled {
+    background-color: var(--background);
+    opacity: 50%;
+}
+
+.button--outline--lg {
+    padding: var(--spacing-2) var(--spacing-8);
+    height: var(--spacing-11);
+    width: 109px;
+    border-color: var(--border);
+}
+
+.button--outline--lg:hover {
+    background-color: var(--background-hover);
+}
+
+.button--outline--lg:active {
+    background-color: var(--background-active);
+}
+
+.button--outline--lg:disabled {
+    background-color: var(--background);
+    opacity: 50%;
+}
+
+.button--outline--icon {
+    height: var(--spacing-10);
+    width: var(--spacing-10);
+    border-color: var(--border);
+
+}
+
+.button--outline-icon:hover {
+    background-color: var(--background-hover);
+}
+
+.button--outline--icon:active {
+    background-color: var(--background-active);
+}
+
+.button--outline--icon:disabled {
+    background-color: var(--background);
+    opacity: 50%;
+}

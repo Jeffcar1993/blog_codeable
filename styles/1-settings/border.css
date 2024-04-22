@@ -1,0 +1,13 @@
+/* styles/1-settings/border.css */
+ 
+:root {
+    --rounded-none: 0;
+    --rounded-sm: 0.125rem; /* 2px */
+    --rounded: 0.25rem; /* 4px */
+    --rounded-md: 0.375rem; /* 6px */
+    --rounded-lg: 0.5rem; /* 8px */
+    --rounder-xl: 0.75rem; /* 12px */
+    --rounder-2xl: 1rem; /* 16px */
+    --rounder-3xl: 1.5rem; /* 24px */
+    --rounder-full: 9999px; /* 9999px */
+  }
