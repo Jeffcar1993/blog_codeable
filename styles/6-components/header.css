@@ -26,6 +26,12 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .contenedor_general header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
    
   /* .header > * {
     display: inline-block;

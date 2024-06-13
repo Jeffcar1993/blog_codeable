@@ -13,9 +13,12 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
   </head>
   <body>
-    <header class="header">
+    <header id="cabecera" class="header">
       <div class="encerrado">
         <div class="titulo">
       <h1 class="header__logo"><a href="../codeable.html"> Codeable </a></h1>
@@ -38,6 +41,19 @@
     <main>
       <div class="section">
         <div class="container">
+
+          <div class="con__menu">
+
+          <aside class="menu__lateral">
+            <ul class="menu__lateral-lista">
+                <h4 class="menu__lateral-titulo">En este articulo</h4>
+                <li > <a href="#queeshtml"> ¿Que es html? </a>  </li>
+                <li> <a href="#etiquetas"> Etiquetas y elementos </a></li>
+                <li> <a href="#propiedad"> Propiedad display y atributos esenciales </a></li>
+                <li> <a href="#practica"> Hora de ponerlo en práctica</a></li>
+              </ul>
+          </aside>
+
           <article class="article">
             <header class="article__header">
               <div class="article-metadata">
@@ -74,7 +90,7 @@
                 que da vida a las páginas web. Así que prepárate para explorar
                 un mundo emocionante y creativo
               </p>
-              <h2>¿Que es html?</h2>
+              <h2 id="queeshtml">¿Que es html?</h2>
               <p>
                 HTML, o HyperText Markup Language (Lenguaje de Marcado de
                 Hipertexto), es el lenguaje esencial para crear contenido en la
@@ -86,7 +102,7 @@
                 Vamos a sumergirnos en algunos elementos fundamentales de HTML
                 que te permitirán comenzar a construir tu primera página web:
               </p>
-              <h2>Etiquetas y elementos</h2>
+              <h2 id="etiquetas">Etiquetas y elementos</h2>
               <p>
                 En HTML, utilizamos etiquetas para definir los diferentes
                 elementos de una página. Cada etiqueta tiene un significado y
@@ -128,7 +144,7 @@
                 <code>src</code> con la URL de la imagen que deseas mostrar.
               </p>
               <pre><code>&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;</code></pre>
-              <h2>Propiedad display y atributos esenciales</h2>
+              <h2 id="propiedad">Propiedad display y atributos esenciales</h2>
               <p>
                 La siguiente tabla muestra algunos elementos HTML comunes, su
                 propiedad `display` y algunos atributos principales que pueden
@@ -160,7 +176,7 @@
                   </tr>
                 </tbody>
               </table>
-              <h2>Hora de ponerlo en práctica</h2>
+              <h2 id="practica">Hora de ponerlo en práctica</h2>
               <p>
                 Con estos elementos básicos de HTML, estás listo para comenzar a
                 construir tus propias páginas web. No te preocupes si al
@@ -169,6 +185,13 @@
               </p>
             </div>
           </article>
+
+          <div class="button__top">
+            <a href="#cabecera"> <i class="fa-solid fa-angles-up" style="color: #f5f5f5;"></i> </a>
+          </div>
+
+        </div>
+
         </div>
       </div>
     </main>

@@ -17,11 +17,15 @@
     border-radius: var(--rounded-md);
     gap: var(--spacing-2);
 
+    transition: transform 400ms;
+
     cursor: pointer;
 }
 
 .button:hover {
     background-color: var(--primary-hover);
+    transition: transform 1000ms ease-out;
+    transform: scale(1.15);
 }
 
 .button:active {

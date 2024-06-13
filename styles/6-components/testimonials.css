@@ -17,6 +17,11 @@
     text-align: left;
 }
 
+.testimonials__list--uno:hover {
+    position: relative;
+    top: 10px;
+}
+
 .testimonials__list--uno--parrafo {
     color: var(--muted-foreground);
     font-family: var(--text);

@@ -25,6 +25,23 @@
     margin-inline: auto;
   }
 
+  .button__top {
+    border-radius: 9999px;
+    background-color: var(--primary);
+    color: initial;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Fixed Positioning */
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+
+
   @media (min-width: 40rem) {
       .container {
         --padding: 24px;
@@ -35,5 +52,12 @@
       .container {
         --padding: 32px;
       }
+
+      .button__top {
+        position: fixed;
+        bottom: 16px;
+        right: 246px;
+      }
   }
 
+ 
